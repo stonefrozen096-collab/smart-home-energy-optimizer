@@ -1,1 +1,0 @@
-worker: python simulator.py
