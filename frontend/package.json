@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.3.3",
     "chart.js": "^4.4.1",
     "mqtt": "^5.7.0",
     "react": "^18.2.0",
