@@ -64,6 +64,7 @@ export function startDigitalTwin(client) {
         name: device.name,
         on: device.on,
         watts: sampleWatts(device),
+        nominalWatts: device.nominalWatts,
         timestamp,
       };
       client.publish(`${TELEMETRY_PREFIX}/${device.device_id}`, JSON.stringify(reading));
