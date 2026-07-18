@@ -32,6 +32,9 @@ jobs:
           VITE_BROKER_URL: ${{ secrets.VITE_BROKER_URL }}
           VITE_BROKER_USERNAME: ${{ secrets.VITE_BROKER_USERNAME }}
           VITE_BROKER_PASSWORD: ${{ secrets.VITE_BROKER_PASSWORD }}
+          VITE_EMAILJS_SERVICE_ID: ${{ secrets.VITE_EMAILJS_SERVICE_ID }}
+          VITE_EMAILJS_TEMPLATE_ID: ${{ secrets.VITE_EMAILJS_TEMPLATE_ID }}
+          VITE_EMAILJS_PUBLIC_KEY: ${{ secrets.VITE_EMAILJS_PUBLIC_KEY }}
         run: |
           npm install
           npm run build
